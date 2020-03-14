@@ -8,5 +8,5 @@ CREATE TABLE burgers
 	id INT AUTO_INCREMENT PRIMARY KEY,
 	burger_name VARCHAR(200) not null,
 	devoured BOOLEAN default false,
-	date TIMESTAMP
+	PRIMARY KEY (id)
 );
