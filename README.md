@@ -3,6 +3,8 @@ Eat-Da-Burger! is a restaurant app that lets users input the names of burgers th
 
 Make sure to npm i so you install all the required packages.
 
+(This app is not working due to code change with MySQL having its strict mode. It will set when you click on "Devour it!" it will set devoured to 0 and it wont go to the right. However before it giving an error code of 1036 {an incorrect value for a row in a column}). Once that is fixed then it should be a live application
+
 ## Link 
 https://secure-atoll-28773.herokuapp.com/
 
